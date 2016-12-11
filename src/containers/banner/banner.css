@@ -1,0 +1,11 @@
+.banner {
+	position: relative;
+	//border: 1px solid red;
+}
+.banner__img {
+	width: 100%;
+}
+.banner__main {
+	position: absolute;
+	top: 0;
+}

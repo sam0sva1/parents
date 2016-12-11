@@ -1,0 +1,35 @@
+.test {
+	border: 1px solid green;
+}
+.test__question {
+	font-size: 20px;
+	font-style: italic;
+}
+.test__answer {
+	cursor: pointer;
+	font-size: 20px;
+	margin: 5px 10px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 2px;
+}
+.test__answer:hover {
+	background-color: #F2FCFB;
+}
+.test__answer_chosen {
+	background-color: #D6FAF2;
+}
+.test__answer_chosen:hover {
+	background-color: #D6FAF2;
+}
+.test__next-btn {
+	margin-left: 10px;
+	width: 80px;
+	height: 30px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.test__result {
+	font-size: 25px;
+	letter-spacing: 2px;
+}
